@@ -18,3 +18,5 @@ SOURCES += main.cpp\
 HEADERS  += widget.h
 
 FORMS    += widget.ui
+
+macx: QMAKE_CXXFLAGS += -std=c++11
