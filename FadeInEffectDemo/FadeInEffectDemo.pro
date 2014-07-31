@@ -19,4 +19,4 @@ HEADERS  += widget.h
 
 FORMS    += widget.ui
 
-QMAKE_CXXFLAGS += -std=c++11
+macx: QMAKE_CXXFLAGS += -std=c++11
