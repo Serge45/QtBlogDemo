@@ -1,6 +1,7 @@
 #include "widget.h"
 #include "ui_widget.h"
 
+#include <cstddef>
 #include <QGraphicsOpacityEffect>
 #include <QPropertyAnimation>
 
